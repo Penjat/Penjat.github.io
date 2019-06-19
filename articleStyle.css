@@ -1,0 +1,132 @@
+
+header {
+  background-color: #999;
+  background-image: url(Images/title3.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 4em;
+  text-align: center;
+  height: 500px;
+  box-shadow: 12px 12px 2px 1px;
+
+}
+#soundCon{
+  background-color: #93bcff;
+  padding: 20px;
+  border-radius: 10px;
+  /* text-align: center; */
+  margin: 20px auto 20px auto;
+}
+
+.modal{
+  width: 101px;
+  height:60px;
+  border-radius: 20px;
+}
+
+.centerCon{
+  /* background-color: grey; */
+  text-align: center;
+}
+
+body {
+  font: 100% sans-serif;
+  margin: 0em 0em 0em 0em;
+  background-color: #DECFC8;
+  color: #666;
+}
+#mainCon{
+  margin: 0em 7em 0em 7em;
+  background-color: #FFFCFF;
+  padding: 2em 4em 1em 4em;
+  min-width: 600px;
+  box-shadow: 12px 12px 2px 1px;
+}
+
+h2 {
+
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 2em 0em 2em 0em;
+    letter-spacing: 1.2px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+h2:after {
+    content: "";
+    margin-left: 10px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    border-bottom: 4px solid #ff4d57;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.section{
+  padding: 0em 2em 0em 2em;
+}
+
+.projectLinks{
+  padding:10px;
+  text-align: center;
+}
+
+.linkBut{
+  width:32px;
+  height:32px;
+  -webkit-filter: grayscale(100%);/* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.linkBut:hover{
+  -webkit-filter: grayscale(0%);/* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+.toolBarImage{
+  width: 93px;
+  height:284px;
+  display: inline-flex;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.imageTextTable{
+  width:80%;
+  text-align: center;
+  background-color: #eae6b9;
+  margin: 20px auto 20px auto;
+
+}
+.rightSide{
+  width:60%;
+}
+.leftSide{
+  width: 40%;
+}
+.quoteTitle{
+  font-style: italic;
+  color: #7086aa;
+}
+.projectImage{
+  display: inline;
+  float: left;
+  padding: 10px;
+  width:30%;
+  background-size: cover;
+  height: auto;
+}
+.projectImageRight{
+  display: inline;
+  float: right;
+  right: 10px;
+  padding: 10px;
+  width:30%;
+  background-size: cover;
+  height: auto;
+}

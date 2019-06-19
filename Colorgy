@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Colorgy</h1>
+
+
+<h2>Difficulty and Modal Levels</h2>
+<p>I am quite happy that Colorgy ended up with such a wide range of difficulty.
+  There are extremely simple puzzles and puzzles that still take me quite awhile to crack.
+
+
+
+<h2>Music</h2>
+<p>I put a great deal of thought into the music in Colorgy.
+  On the one hand, I felt a puzzle game should have somewhat minimal music, nothing that would distract the player from the task at hand.
+  And nothing too repetative that would grate on the player's nerves.
+  <p>I decided I wanted to do something dynamic, something that synced with the player's actions and tied in with the game mechanics themselves.
+    <p>(Music Theory Alert) I decided to have each gameplay action would have a chord assigned to it.
+      Clearing hexes with the nova played a maj9 chord.
+      Absorbing colors with the cube nova plays an augmented chord.
+      Adding color with the diamond plays a suspened 4 chord.
+      The vortex plays a chord made from the hexatonic scale.
+      I felt the flavor or character of each chord reflected the accociated gameplay action.
+      The vortex and the diamond can never be used to finish a level, so it is appropiate that they have an unresolved nature to them.
+
+      <p>Rather than repeat those same chords everytime, the voicing of the chord would be higher and higher as the level progresses,
+        building to a nice sense of cadence and completion.
+
+
+
+<h2>What I would do differently</h2>
+
+<h3>Agile</h3>
+<p>If I was to do this project again, I would make sure to begin teting with users as soon as posible.
+  A few users commented that the cube and diamond system was confusing and that plus and minus would have been much more intuative.
+  Though I feel plus and minus signs would be somewhat gaudy in a game like this, I have to admit they have a good point.
+  Cube and diamonds made sense to me as the creator of the game, but
+
+  <h3>Too easy, too hard</h3>
+  <p>It is imposible to please everybody, initial feedback I recieved from the gaming comunity was that the difficult puzzles were really great, but it took too long to get to them.
+    On the flip side, when testing with people less familar with games, they needed more tutorialising.
+    If I could re-do this, I would have a less linera nature to the game and allow the user to attempt the more difficult levels right away.
+    Another issue is the the vortex, one of the most interesting pieces in the game, doesn't make an apperance until mid way through the game.
+    This was diliberate, as the vortex puzzles are some of the most difficult and disorienting, but having it in the middle fails to show case it to a casual player.
+
+    <h3>What was the color wheel again...</h3>
+    <p>As I worked on colorgy, I became very familar with the color wheel and which two colors make what.
+      I found for a lot of players, this was not always obvious or intuative.
+      To further confuse things, many people are used to RGB color values rather than the red-blue-yellow system I was using.
+      <p>In future I would add additional visual queses to differentiate between primary and secondary colors,
+        perhaps having a different texture for each (smooth crystal for one and jagged ore for the other).
+
+
+
+</body>
+</html>

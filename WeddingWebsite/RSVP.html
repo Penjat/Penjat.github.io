@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" type="text/css" href="weddingStyle.css">
+<div id="navBar">
+<!-- TODO change to actual links -->
+  <a href="index.html" class="navButton">HOME</a>
+  <a href="RSVP.html" class="navButton">RSVP</a>
+  <a href="events.html" class="navButton">EVENTS</a>
+  <a href="things.html" class="navButton">THINGS TO DO</a>
+</div>
+</head>
+<body>
+
+  <!-- <h1 class="pageTitle">RSVP</h1> -->
+  <!-- <button type="button" onclick="testWrite()">test write</button> -->
+  <div id="entryCon">
+  <h1 class="message">please enter your code</h1>
+
+
+
+
+    <input type="text" name="firstname" id="codeInput"><br>
+    <button type="button" onclick="pressedButton()" class="niceButton">enter</button>
+  </div>
+
+
+<div id="notFoundMsg">
+  <h2>Sorry, we don't recognize that code</h2>
+  <p>please make sure you entered the right code.
+  <p>If you are having problems please E-mail theSpencerSymington@gmail.com</p>
+
+
+</div>
+<div id="rsvpCon">
+  <h2 id="welcomeMsg">Hello</h2>
+
+  <div id="sangeetCon" class="eventCon">
+    <h1>Sangeet</h1>
+    <h3>August 8th 18:00</h3>
+        <label class="switch">
+  <input type="checkbox"  id="checkboxEvent1" class="eventCheckbox" onClick="toggleEvent(0)">
+
+</label>
+
+
+  </div>
+
+  <div id="ceremonyCon" class="eventCon">
+    <h1>Ceremony</h1>
+    <h3>August 10th 14:00</h3>
+    <label class="switch">
+  <input type="checkbox"  id="checkboxEvent2" class="eventCheckbox" onClick="toggleEvent(1)">
+
+</label>
+  </div>
+
+  <div id="receptionCon" class="eventCon">
+    <h1>Reception</h1>
+    <h3>August 10th 20:00</h3>
+    <label class="switch">
+  <input type="checkbox" id="checkboxEvent3" class="eventCheckbox" onClick="toggleEvent(2)">
+
+</label>
+  </div>
+  <button type="button" class="niceButton" onClick="submitData()">Submit</button>
+
+</div>
+<div id="submittedCon">
+  <h2>Thank you!  Your RSVP was submitted.</h2>
+  </div>
+
+
+
+  <script src="weddingDB.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+  <script>
+
+    //set up the page
+    window.onload = setUp;
+
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyB0FynCNweuj7O01VpLZue6IjbrEGn3fLc",
+      authDomain: "weddingsite-8674e.firebaseapp.com",
+      databaseURL: "https://weddingsite-8674e.firebaseio.com",
+      projectId: "weddingsite-8674e",
+      storageBucket: "weddingsite-8674e.appspot.com",
+      messagingSenderId: "603269675364"
+    };
+    firebase.initializeApp(config);
+
+    // var msgHeading = document.getElementById('msgHeading');
+    // var dbRef = firebase.database().ref().child('users/joe');
+    // dbRef.on('value',snap => msgHeading.innerText = snap.val() )
+
+
+
+  </script>
+
+
+
+
+</body>
+</html>

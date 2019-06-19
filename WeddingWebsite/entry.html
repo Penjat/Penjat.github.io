@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="entryStyle.css">
+</head>
+
+<body>
+  <h1>Entry</h1>
+  <table id="entryTable">
+    <tr>
+      <td>
+        <h2>Name</h2>
+        <input type="text" name="firstname" id="namesField"><br>
+
+        </td>
+        <td>
+          <br>
+          <input type="checkbox" id="event1" value="Sangeet"> Sangeet<br>
+          <input type="checkbox" id="event2" value="Ceremony"> Ceremony<br>
+          <input type="checkbox" id="event3" value="Reception"> Reception
+          </td>
+          <td>
+            <h2>Code</h2>
+            <input type="text" name="firstname" id="codeField"><br>
+          </td>
+          <td>
+            <h2>number invited</h2>
+            <button type="button" onclick="plusPressed()">+</button>
+            <button type="button" onclick="minusPressed()">-</button>
+            <div id="numInvited">0</div>
+          </td>
+        </tr>
+
+
+
+
+
+    </table>
+
+
+
+
+
+  <button type="button" onclick="createEntry()">Create Entry</button>
+
+
+
+
+  <script src="weddingDBEntry.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+  <script>
+
+    //set up the page
+    // window.onload = setUp;
+
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyB0FynCNweuj7O01VpLZue6IjbrEGn3fLc",
+      authDomain: "weddingsite-8674e.firebaseapp.com",
+      databaseURL: "https://weddingsite-8674e.firebaseio.com",
+      projectId: "weddingsite-8674e",
+      storageBucket: "weddingsite-8674e.appspot.com",
+      messagingSenderId: "603269675364"
+    };
+    firebase.initializeApp(config);
+
+    // var msgHeading = document.getElementById('msgHeading');
+    // var dbRef = firebase.database().ref().child('users/joe');
+    // dbRef.on('value',snap => msgHeading.innerText = snap.val() )
+
+
+
+  </script>
+</body>
+
+
+</html>

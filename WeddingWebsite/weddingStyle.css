@@ -1,0 +1,111 @@
+
+body{
+  background-color: #afceff;
+}
+#navBar{
+  margin: auto;
+  text-align: center;
+  /* position: absolute; */
+  top: 10px;
+  right:10px;
+  left:10px;
+  padding: 10px 0px 50px 0px;
+  /* background-color: yellow; */
+}
+.navButton{
+  padding: 10px 20px 10px 20px;
+  display: inline-block;
+  font-size: 28px;
+  font-family: "Lucida Console", Monaco;
+  color:black;
+  text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+.message,.niceButton,#codeInput{
+  font-family: "Courier New", Courier, monospace;
+}
+.niceButton{
+  font-size: 20px;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+#codeInput{
+  font-size: 30px;
+  border-radius: 10px;
+  margin: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bg{
+  background-position: 0px -200px;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+#mainTitle{
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  position: fixed;
+  bottom: 20px;
+  left:10px;
+  right: 10px;
+  color: white;
+  margin:auto;
+}
+
+.pageTitle{
+  text-align: center;
+}
+.eventCon{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #fffdea;
+  width: 600px;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 16px;
+  font-family: "Lucida Console", Monaco;
+}
+.eventTitle{
+  font-family: "Lucida Console", Monaco;
+  color: #537fa3;
+}
+.thing{
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 500px;
+  height:200px;
+  margin: 20px auto;
+}
+#thingsCon{
+  text-align: center;
+  margin: auto;
+  right:10px;
+  left:10px;
+}
+
+#rsvpCon, #entryCon, #eventsCon{
+  text-align: center;
+
+}
+.eventCheckbox{
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+}
+#submittedCon{
+  text-align: center;
+}
