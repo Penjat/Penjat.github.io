@@ -94,7 +94,7 @@ a:link{
   left:10px;
 }
 
-#rsvpCon, #entryCon, #eventsCon{
+#rsvpCon, #entryCon, #eventsCon, .center{
   text-align: center;
 
 }
@@ -108,4 +108,9 @@ a:link{
 }
 #submittedCon{
   text-align: center;
+}
+.hotelInfo{
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
 }
