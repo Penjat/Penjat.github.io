@@ -82,7 +82,8 @@ function printInvited(user){
 }
 function showWelcomeMSG(ref){
   ref.once("value", function(snapshot) {
-    document.getElementById('welcomeMsg').innerHTML = "Welcome " + snapshot.val().names + "."
+    // document.getElementById('welcomeMsg').innerHTML = "Welcome " + snapshot.val().names + "."
+    document.getElementById('welcomeMsg').innerHTML = "Welcome"
     console.log("msg is " + snapshot.val().names);
   })
 }
