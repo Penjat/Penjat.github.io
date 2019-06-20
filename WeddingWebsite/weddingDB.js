@@ -133,6 +133,9 @@ function submitData(){
   var _numInvited = 0;
   ref.once("value", function(snapshot) {
     _names = snapshot.val().names;
+    if(typeof myVar == 'undefined'){
+      _names = 'not entered';
+    }
     _numInvited = snapshot.val().numInvited;
   })
 
