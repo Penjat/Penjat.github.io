@@ -90,7 +90,7 @@ function showWelcomeMSG(ref){
 function pressedButton(){
   console.log("pressed the button");
   var groupName = document.getElementById('codeInput');
-  var ref = firebase.database().ref("users/"+groupName.value);
+  var ref = firebase.database().ref("users/"+groupName.value.toLowerCase());
 
 
   showWelcomeMSG(ref)
@@ -131,6 +131,7 @@ function submitData(){
   var ref = firebase.database().ref("users/"+curName);
   var _names = "";
   var _numInvited = 0;
+  var _guestNames = document.getElementById('nameInput').value
   ref.once("value", function(snapshot) {
     _names = snapshot.val().names;
     if(typeof myVar == 'undefined'){
@@ -144,6 +145,7 @@ function submitData(){
     'submitted' : true,
     names : _names,
     numInvited : _numInvited,
+    guestNames : _guestNames,
     event1,
     event2,
     event3

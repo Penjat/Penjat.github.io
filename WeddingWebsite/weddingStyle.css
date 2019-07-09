@@ -121,3 +121,10 @@ a:link{
   width:100%;
 
 }
+#nameInput{
+  width: 35%;
+  height:100px;
+  font-size: 22px;
+  padding: 20px;
+  font-family: "Lucida Console", Monaco;
+}
