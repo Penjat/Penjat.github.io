@@ -10,6 +10,7 @@ function showInvites(willShow){
     rsvpCon.style.display = "none";
   }
 }
+
 function showNotFound(willShow){
   var notFoundMsg = document.getElementById('notFoundMsg');
   if (willShow) {

@@ -61,3 +61,8 @@ function resetAll(){
   document.getElementById('event3').checked = true;
 
 }
+function getAllData(){
+  console.log("getting the data");
+  var ref = firebase.database().ref("users");
+  
+}
