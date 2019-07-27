@@ -1,0 +1,43 @@
+
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="list.css">
+</head>
+
+<body>
+<h1>Who's attending</h1>
+  <button type="button" class="niceButton" onClick="showAttending()">show attending</button>
+
+<div id="attendingCon">
+
+
+  </div>
+
+  <script src="List.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+  <script>
+
+    //set up the page
+    <!-- window.onload = setUp; -->
+
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyB0FynCNweuj7O01VpLZue6IjbrEGn3fLc",
+      authDomain: "weddingsite-8674e.firebaseapp.com",
+      databaseURL: "https://weddingsite-8674e.firebaseio.com",
+      projectId: "weddingsite-8674e",
+      storageBucket: "weddingsite-8674e.appspot.com",
+      messagingSenderId: "603269675364"
+    };
+    firebase.initializeApp(config);
+
+    // var msgHeading = document.getElementById('msgHeading');
+    // var dbRef = firebase.database().ref().child('users/joe');
+    // dbRef.on('value',snap => msgHeading.innerText = snap.val() )
+
+
+
+  </script>
+  </body>
+  </html>
