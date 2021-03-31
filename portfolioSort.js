@@ -11,8 +11,9 @@ function sortBy(sortType,button){
   console.log("sorting by " + sortType);
   var table, rows, switching, i, x, y, shouldSwitch;
   table = document.getElementById("allProjects");
+  document.getElementById("fliterLabel").innerHTML = "<h4>" + sortType + "</h4>";
 
-  rows = table.getElementsByClassName("projectContainer");;
+  rows = table.getElementsByClassName("projectContainer");
   for (var i = 0; i<rows.length;i++){
     var item = rows[i].getElementsByClassName("skillTags")[0]
     var tags = item.innerHTML.toLowerCase()
